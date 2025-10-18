@@ -1,0 +1,42 @@
+/**
+ * Gruvbox Dark theme variables
+ */
+
+@mixin theme-gruvbox() {
+  :root {
+    /* Gruvbox Palette Reference (Dark Soft) */
+    /* background: #32302f */
+    /* foreground: #ebdbb2 */
+    /* red: #fb4934, green: #b8bb26, yellow: #fabd2f, blue: #83a598, purple: #d3869b, aqua: #8ec07c, orange: #fe8019 */
+
+    --base-color: #ebdbb2; /* Gruvbox foreground - used as main text/link color */
+    --border: solid 1px rgba(184, 187, 38, 0.5); /* Soft yellow-green border */
+    --selection-background: rgba(131, 165, 152, 0.4); /* Soft blue for selection */
+    --selection-text: #ebdbb2; /* Foreground on selection */
+    --background-color: #32302f; /* Gruvbox background */
+    --text-color: var(--base-color); /* Foreground */
+    --placeholder-color: #a89984; /* Darker gray/text-fade */
+    --link-color: #83a598; /* Soft blue for links */
+
+    /* Gruvbox Color Mapping for Code/Syntax Highlighting */
+    /* Note: These are heuristic mappings based on typical syntax roles */
+    --code-color-1: #a89984; /* Grey for comments/inactive code */
+    --code-color-2: #fabd2f; /* Yellow for strings/constants */
+    --code-color-3: #fb4934; /* Red for errors/important keywords */
+    --code-color-4: #fe8019; /* Orange for function names/variables */
+    --code-color-5: #d3869b; /* Purple for types/keywords */
+    --code-color-6: #b8bb26; /* Green for function calls/constants */
+    --code-color-7: #fabd2f; /* Yellow (backup) */
+    --code-color-8: #83a598; /* Blue for built-ins/class names */
+    --code-color-9: #b8bb26; /* Green (backup) */
+    --code-color-10: #a89984; /* Gray (backup) */
+    --code-color-11: #928374; /* Darker Gray for less important tokens */
+    --code-color-12: #d3869b; /* Purple (backup) */
+    --code-color-13: #8ec07c; /* Aqua for attributes/tags */
+    --code-color-14: #83a598; /* Blue (backup) */
+    --code-color-15: #fe8019; /* Orange (backup) */
+    --code-color-16: #83a598; /* Blue (backup) */
+    --code-color-17: #fb4934; /* Red (backup) */
+    --code-color-18: #ebdbb2; /* Foreground (backup for default text) */
+  }
+}

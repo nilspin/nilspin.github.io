@@ -1,16 +1,19 @@
 # Site settings
-title: Nilspin's Blog # Replace with your desired blog title
+title: Nilspin's Blog
 email: gooney28@gmail.com # Replace with your email
-description: > # This description will appear in your document <head>
-  A clean, Tufte-style blog powered by Jekyll and hosted on GitHub Pages.
+description: "A clean, Tufte-style blog powered by Jekyll and hosted on GitHub Pages."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://nilspin.github.io" # the base hostname & protocol for your site
-
+style : gruvbox
 # Jekyll Tufte Theme Configuration
-remote_theme: "clayh53/tufte-jekyll"
+remote_theme: "b2a3e8/jekyll-theme-console"
 # You might need this line for GitHub Pages to process the theme correctly
 plugins:
   - jekyll-remote-theme
+
+header_pages:
+  - index.md
+  - about.md
 
 # Exclude these files from the build
 exclude:
