@@ -7,7 +7,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://nilspin.github.io" # the base hostname & protocol for your site
 
 # Jekyll Tufte Theme Configuration
-remote_theme: "jekyll/tufte"
+remote_theme: "clayh53/tufte-jekyll"
 # You might need this line for GitHub Pages to process the theme correctly
 plugins:
   - jekyll-remote-theme
